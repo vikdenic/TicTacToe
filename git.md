@@ -1,13 +1,22 @@
+Creating a new repository. This only needs to be done once per repo (each time you create a new project)
+
 - `git init`  initializes a git repository
+
+Adding changes to your git repo
 
 - `git add <filename>` adds a file or changes in a file to a repository
 - `git add .` adds everything in current directory (files and changes) to a repository
 - `git commit -m <meassage>` saves changes you've made to the repository
 
+Pushing code to Github
+
+- `git remote add origin <url>` connects repo to a remote url (usually github), only needs to be done once per repo
+
 - `git push origin master` pushes changes to a remote git repo (github)
 - `git pull origin master` pulls changes from a remote git repo (github)
 
-- `git remote add origin <url>` connects repo to a remote url (usually github)
+Helpful Commands
 
+- `git help` lists possible git commands
 - `git status` shows changes that have not been committed
 - `git log` shows commit history
