@@ -20,12 +20,16 @@ Pushing/Retrieving code to/from Github
 - `git clone <url>` copy's a repo from github
 - `git pull <branch> <remote>` pulls changes from remote (usually github)
 
+Reverting Changes
+
+- `git reset <Log Number>` resets git repo to specific commit 
+- `git reset --hard <Log Number>` reset git repo, and sublime to specific commit
+
 Helpful Commands
 
 - `git help` lists possible git commands
 - `git status` shows changes that have not been committed
 - `git log` shows commit history
-
 
 ###Lab
 
