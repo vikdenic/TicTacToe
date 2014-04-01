@@ -25,3 +25,14 @@ Helpful Commands
 - `git help` lists possible git commands
 - `git status` shows changes that have not been committed
 - `git log` shows commit history
+
+
+###Lab
+
+Play githug
+
+`gem install githug`
+
+run `githug` in terminal
+
+follow steps, and keep running `githug` after each one
