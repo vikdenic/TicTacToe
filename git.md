@@ -1,4 +1,7 @@
-##Git Commands Cheatsheet
+#Git and Github
+_____________________
+
+###Git Commands Cheatsheet
 
 - `git init`  initializes a git repository
 
@@ -47,7 +50,7 @@
 - `git config --global user.name "John Doe"` sets a name that will be attached to commits
 - `git config --global user.email johndoe@example.com` sets an email that will be attached to commits
 
-####Baisc Workflow
+###Baisc Git Workflow
 
 Step 1: Create a new directory `mkdir new_directory`  
   *Note: A directory is not the same as a repository*  
@@ -66,9 +69,20 @@ Step 10: Continue to add, commit, and push changes
   `git commit -m "new message"`  
   `git push origin master`  
 
+
+###Working with Github
+
 ####How to Create a Repo
 
-![new_repo_button](https://github-images.s3.amazonaws.com/help/bootcamp/bootcamp_2_newrepo.jpg)
+1. Click "New Repo"
+
+  ![new_repo_button](https://github-images.s3.amazonaws.com/help/bootcamp/bootcamp_2_newrepo.jpg)
+
+2. Fill out the information on this page. When you're done, click "Create Repository."
+
+  ![create_repo_page](https://github-images.s3.amazonaws.com/help/bootcamp/bootcamp_2_repoinfo.png)
+
+3. Congratulations! You have successfully created a repository!
 
 ####How to Create a Pull Request on Github
 
@@ -91,3 +105,7 @@ Official Documentation: http://git-scm.com/doc
 Try Git Tutorial: http://try.github.io/levels/1/challenges/1  
 Git Hug game: https://github.com/Gazler/githug  
 Other Resources: http://training.github.com/resources  
+
+Setting up SSH Keys: https://help.github.com/articles/generating-ssh-keys  
+General Github Help: https://help.github.com/  
+
