@@ -33,7 +33,7 @@ Helpful Commands
 
 ###Resources
 
-Official Documentation: http://git-scm.com/doc
-Try Git Tutorial: http://try.github.io/levels/1/challenges/1
-Git Hug game: https://github.com/Gazler/githug
-Other Resources: http://training.github.com/resources
+Official Documentation: http://git-scm.com/doc  
+Try Git Tutorial: http://try.github.io/levels/1/challenges/1  
+Git Hug game: https://github.com/Gazler/githug  
+Other Resources: http://training.github.com/resources  
