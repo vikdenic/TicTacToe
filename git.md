@@ -33,6 +33,7 @@ Helpful Commands
 
 ###Resources
 
+Jackie's Slides: https://docs.google.com/a/generalassemb.ly/presentation/d/1aBjy-0ihgKOqcaxRrE4RHVJPVwQAFqYzc2_gtc6IPGU/edit#slide=id.g26a076831_036
 Official Documentation: http://git-scm.com/doc  
 Try Git Tutorial: http://try.github.io/levels/1/challenges/1  
 Git Hug game: https://github.com/Gazler/githug  
