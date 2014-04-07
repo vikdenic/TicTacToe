@@ -68,7 +68,7 @@ Step 10: Continue to add, commit, and push changes
 
 ####How to Create a Repo
 
-(https://github-images.s3.amazonaws.com/help/bootcamp/bootcamp_2_newrepo.jpg)
+![new_repo_button](https://github-images.s3.amazonaws.com/help/bootcamp/bootcamp_2_newrepo.jpg)
 
 ####How to Create a Pull Request on Github
 
