@@ -5,13 +5,13 @@ _____________________
 
 - `git init`  initializes a git repository
 
-####Saving Changes
+#####Saving Changes
 
 - `git add <filename>` adds a file or changes in a file to a repository
 - `git add .` adds everything in current directory (files and changes) to a repository
 - `git commit -m <meassage>` saves changes you've made to the repository
 
-####Reverting Changes
+#####Reverting Changes
 
 - `git reset <Log Number>` resets git repo to specific commit 
 - `git reset --hard <Log Number>` reset git repo, and current directory to specific commit
@@ -19,7 +19,7 @@ _____________________
 - `git commit --amend` Adds changes to previous commit
 - `git commit --amend -m "New message"` changes your previous commit message
 
-####Working with Remotes
+#####Working with Remotes
 
 - `git remote add <remote_name> <url>` connects repo to a remote url (usually github)
 - `git remote rm <remote_name>` removes a previously added remote
@@ -31,7 +31,7 @@ _____________________
 
 - `git clone <url>` copy's a repo from github
 
-####Working with Branches
+#####Working with Branches
 
 - `git branch` lists different branches
 - `git branch <new_branch_name>` creates a new branch
@@ -40,7 +40,7 @@ _____________________
 
 - `git merge <branch_name>` merges the specified branch into the working branch
 
-####Helpful Commands
+#####Helpful Commands
 
 - `git help` lists possible git commands
 - `git status` shows changes that have not been committed
