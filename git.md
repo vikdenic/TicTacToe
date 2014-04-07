@@ -1,6 +1,8 @@
 #Git and Github
 _____________________
 
+![git does not equal github](http://1.bp.blogspot.com/-WY2YpNr3W6g/UY6tZAc-H3I/AAAAAAAABLY/xJ9x3wIY8V8/s440/Github2.png)  
+
 ###Git Commands Cheatsheet
 
 - `git init`  initializes a git repository
@@ -52,19 +54,27 @@ _____________________
 
 ###Baisc Git Workflow
 
-Step 1: Create a new directory `mkdir new_directory`  
-  *Note: A directory is not the same as a repository*  
-Step 2: Move into your new directory `cd new_directory`  
-Step 3: Initialize a new repository `git init`  
-Step 4: Write some code and Add changes to staging `git add .`  
-Step 5: Commit changes to repo `git commit -m "My changes"`  
-Step 6: Repeat steps 4 and 5  
+**Step 1:** Create a new directory `mkdir new_directory`  
+  *Note: A directory is not the same as a repository* 
 
-Step 7: Create a repo on Github
-Step 8: Connect your Github Repo to your local repo `git remote add origin git@github.com:user_name/my_repo.git`  
-Step 9: Push your local repo to Github `git push origin master`  
+**Step 2:** Move into your new directory `cd new_directory`  
 
-Step 10: Continue to add, commit, and push changes
+**Step 3:** Initialize a new repository `git init`  
+
+
+**Step 4:** Write some code and Add changes to staging `git add .`  
+
+**Step 5:** Commit changes to repo `git commit -m "My changes"`  
+
+**Step 6:** Repeat **steps 4 and** 5  
+
+**Step 7:** Create a repo on Github
+
+**Step 8:** Connect your Github Repo to your local repo `git remote add origin git@github.com:user_name/my_repo.git`  
+
+**Step 9:** Push your local repo to Github `git push origin master`  
+
+**Step 10:** Continue to add, commit, and push changes
   `git add .`  
   `git commit -m "new message"`  
   `git push origin master`  
@@ -96,7 +106,6 @@ Step 10: Continue to add, commit, and push changes
 6. Click "Click to create a pull request" for this comparison
 7. Enter a title and description for your pull request
 8. Click Send pull request
-
 
 ###Resources
 
