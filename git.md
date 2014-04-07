@@ -31,12 +31,9 @@ Helpful Commands
 - `git status` shows changes that have not been committed
 - `git log` shows commit history
 
-###Lab
+###Resources
 
-Play githug
-
-`gem install githug`
-
-run `githug` in terminal
-
-follow steps, and keep running `githug` after each one
+Official Documentation: http://git-scm.com/doc
+Try Git Tutorial: http://try.github.io/levels/1/challenges/1
+Git Hug game: https://github.com/Gazler/githug
+Other Resources: http://training.github.com/resources
