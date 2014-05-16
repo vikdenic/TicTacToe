@@ -21,6 +21,7 @@
 		93F28CB919253FD80062D28B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93F28C9B19253FD80062D28B /* UIKit.framework */; };
 		93F28CC119253FD80062D28B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 93F28CBF19253FD80062D28B /* InfoPlist.strings */; };
 		93F28CC319253FD80062D28B /* TicTacToeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F28CC219253FD80062D28B /* TicTacToeTests.m */; };
+		93F28CCD192541B10062D28B /* CheckMate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93F28CCC192541B10062D28B /* CheckMate.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		93F28CBE19253FD80062D28B /* TicTacToeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TicTacToeTests-Info.plist"; sourceTree = "<group>"; };
 		93F28CC019253FD80062D28B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		93F28CC219253FD80062D28B /* TicTacToeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TicTacToeTests.m; sourceTree = "<group>"; };
+		93F28CCC192541B10062D28B /* CheckMate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CheckMate.framework; path = ../../../Desktop/CheckMate.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93F28CCD192541B10062D28B /* CheckMate.framework in Frameworks */,
 				93F28C9A19253FD80062D28B /* CoreGraphics.framework in Frameworks */,
 				93F28C9C19253FD80062D28B /* UIKit.framework in Frameworks */,
 				93F28C9819253FD80062D28B /* Foundation.framework in Frameworks */,
@@ -101,6 +104,7 @@
 		93F28C9619253FD80062D28B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				93F28CCC192541B10062D28B /* CheckMate.framework */,
 				93F28C9719253FD80062D28B /* Foundation.framework */,
 				93F28C9919253FD80062D28B /* CoreGraphics.framework */,
 				93F28C9B19253FD80062D28B /* UIKit.framework */,
@@ -376,6 +380,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/viktordenic/Desktop,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TicTacToe/TicTacToe-Prefix.pch";
 				INFOPLIST_FILE = "TicTacToe/TicTacToe-Info.plist";
@@ -389,6 +397,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/viktordenic/Desktop,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TicTacToe/TicTacToe-Prefix.pch";
 				INFOPLIST_FILE = "TicTacToe/TicTacToe-Info.plist";
